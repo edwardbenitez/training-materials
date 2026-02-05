@@ -1,0 +1,32 @@
+SPRINT = [
+    """
+sprint_number: 5,
+sprint_status_type: active,
+sprint_start_date: 2023-10-01,
+sprint_end_date: 2023-10-15,
+project_id: proj_12345,
+assigned_user_stories: 20,
+completed_user_stories: 16,
+pending_user_stories: 4,
+user_name: johndoe""",
+    """
+sprint_number: 5,
+sprint_status_type: active,
+sprint_start_date: 2023-10-01,
+sprint_end_date: 2023-10-15,
+project_id: proj_12345,
+assigned_user_stories: 10,
+completed_user_stories: 1,
+pending_user_stories: 9,
+user_name: peterpan""",
+    """
+sprint_number: 5,
+sprint_status_type: active,
+sprint_start_date: 2023-10-01,
+sprint_end_date: 2023-10-15,
+project_id: proj_12345,
+assigned_user_stories: 0,
+completed_user_stories: 0,
+pending_user_stories: 0,
+user_name: thinkerbell""",
+]

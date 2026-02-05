@@ -1,0 +1,27 @@
+[project]
+name = "agent-foundrylocal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Edward Benitez", email = "edward-17@hotmail.es" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "foundry-local-sdk>=0.5.1",
+    "langchain-openai>=1.1.6",
+    "langgraph>=1.0.5",
+    "pydantic>=2.12.5",
+]
+
+[project.scripts]
+agent-foundrylocal = "agent_foundrylocal.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.18,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.10",
+]
